@@ -1,0 +1,32 @@
+=========================================================
+      HOW TO RUN KREED AI IN VISUAL STUDIO CODE
+=========================================================
+
+Follow these simple steps to run your Kawaii AI Assistant (Kreed) in VS Code:
+
+1. OPEN THE FOLDER IN VS CODE:
+   - Open Visual Studio Code.
+   - Go to File > Open Folder...
+   - Select the folder containing your project (KREEDAI).
+
+2. ADD YOUR API KEY:
+   - In VS Code, look at the files on the left sidebar.
+   - Open the `.env` file (if it doesn't exist, create it by copying `.env.example`).
+   - Add your Gemini API key like this:
+     GEMINI_API_KEY=your_api_key_here
+
+3. OPEN THE TERMINAL:
+   - At the top of VS Code, click on "Terminal" > "New Terminal".
+   - (Shortcut: Ctrl + ` or Cmd + ` on Mac)
+
+4. INSTALL REQUIREMENTS:
+   - In the terminal at the bottom, type the following command and press Enter:
+     pip install -r requirements.txt
+   - (Note: You might need to use `pip3` instead of `pip` depending on your setup).
+
+5. RUN THE AI:
+   - Finally, type this command and press Enter:
+     python cherry.py
+   - (Alternatively, you can click the "Play" button in the top right corner of VS Code while cherry.py is open).
+
+Enjoy your personal cute assistant!
